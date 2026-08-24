@@ -11,7 +11,7 @@ const content = {
   passwordHint: "",
 
   // اسمها / الدلع اللي هيظهر في صفحة القفل والعنوان
-  recipientName: "فرح",
+  recipientName: "💖فرح",
 
   // العنوان الرئيسي بعد فتح الموقع
   heroTitle: "لحبيبتي 💖",
