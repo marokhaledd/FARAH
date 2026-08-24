@@ -136,7 +136,7 @@ export default function Home() {
         </motion.div>
       </section>
 
-      {hasPhotos ? <PhotoGallery photos={content.photos} /> : null}
+      {hasPhotos ? <PhotoGallery photos={content.photos.slice(1)} /> : null}
       <VideosSection videos={content.videos} />
       <SongsSection songs={content.songs} />
       <LoveLetters groups={content.loveLetterGroups} signature={content.signature} />
