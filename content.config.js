@@ -46,7 +46,7 @@ const content = {
 
   // الأغاني - تقدر تحط أغنية واحدة أو أكتر، كل واحدة هتتعرض بمشغلها الخاص
   songs: [
-    { src: "/audio/song-1.mp3", title: "الأغنية اللي بتفكرني بيكي", artist: "" },
+    { src: "/audio/song-1.mp3", title: "", artist: "" },
     { src: "/audio/song-2.mp3", title: "", artist: "" }
   ],
 
