@@ -31,8 +31,8 @@ const content = {
   // عشان تضيف صورة جديدة: حط الملف جوه public/images/ وضيف سطر بنفس الشكل ده
   // src: اسم/مسار الصورة جوه public/images  |  caption: التعليق تحتها (اختياري - سيبه "" لو مفيش)
   photos: [
+      { src: "/images/photo-2.jpg", caption: "اكتر صوره بنحبها" },
     { src: "/images/photo-1.jpg", caption: "اول صوره نتصورها" },
-    { src: "/images/photo-2.jpg", caption: "اكتر صوره بنحبها" },
     { src: "/images/photo-3.jpg", caption: "اليوم الي بنحبه" },
     { src: "/images/photo-4.jpg", caption: "لما رجعت اقلب دي حبيتها اوي" },
   ],
@@ -53,10 +53,10 @@ const content = {
   // رسايل الحب - كل رسالة بقى ليها جواب منفصل بعنوانه الخاص
   loveLetterGroups: [
     {
-      title: "اول مره عيني تشوف حاجه حلوه",
+      title: "من قلبي",
       lines: [
-        "22/9/2025 - يوم ما شوفتك",
-        "اكتب هنا اللي عايز تقوله لفرح 💖"
+        "اول مره عيني تشوف حاجه حلوه 22/9/2025 ",
+        "يوم ما شوفتك 💖"
       ]
     },
   ],
