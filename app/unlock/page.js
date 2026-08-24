@@ -11,7 +11,7 @@ export default function UnlockPage() {
   const router = useRouter();
   const [password, setPassword] = useState("");
   const [status, setStatus] = useState("idle"); // idle | checking | wrong | success
-  const initial = content.recipientName?.trim()?.charAt(0) || "♥";
+  const initial = Array.from(content.recipientName?.trim() || "")[0] || "♥";
   const isBirthday = content.transition === "birthday";
 
   async function handleSubmit(e) {
